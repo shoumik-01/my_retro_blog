@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Retro Blog</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <h1>My Retro Blog<span class="cursor"></span></h1>
+        <p class="site-description">Thoughts, projects, and digital nostalgia since 2025</p>
+    </header>
+
+    <div class="under-construction">
+        Some parts of this site are under construction. Please check back later!
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#home" onclick="showPage('home', event)">Home</a></li>
+            <li><a href="#about" onclick="showPage('about', event)">About Me</a></li>
+            <li><a href="#thoughts" onclick="showPage('thoughts', event)">My Thoughts</a></li>
+            <li><a href="#portfolio" onclick="showPage('portfolio', event)">My Portfolio</a></li>
+            <li><a href="#links" onclick="showPage('links', event)">Useful Links</a></li>
+            <li><a href="#rss" class="rss-button">RSS</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Home Page -->
+        <section id="home" class="page-content active">
+            <h2>Welcome to my digital space!</h2>
+            <p>This is my personal corner of the internet, designed with a nostalgic nod to the early days of the web. Feel free to explore my thoughts, projects, and more.</p>
+
+            <h3>Latest Updates:</h3>
+            <div class="blog-post">
+                <h3 class="post-title">Hello, World!</h3>
+                <div class="post-meta">Posted on April 16, 2025</div>
+                <div class="post-content">
+                    <p>Welcome to my new blog! I've finally decided to create a space where I can share my thoughts, projects, and interests. This site is inspired by the web design of the late 90s and early 2000s - a simpler time for the internet.</p>
+                    <p>Stay tuned for more updates!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Page -->
+        <section id="about" class="page-content">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <div class="profile-image">
+                    <!-- Replace the src with your actual image path -->
+                    <img src="moi.jpg" alt="Shoumik Hasan" />
+                </div>
+                <div class="about-text">
+                    <p>Hello there! I'm Shoumik Hasan, a dangerously over-caffeinated grad student based in Minnesota, bravely navigating the chaotic intersection of creativity and existential dread. I'm passionate about arts, engineering, natural sciences, mild chaos, and the eternal quest to find the perfect playlist for every mood imaginable!</p>
+
+                    <p>When I'm not wrangling words or overthinking my next sentence, you'll find me chasing down ideas like they owe me money, or trying to make sense of this strange little planet we all share. This blog is my corner of the internet—less a digital diary, more a collection of mildly organized thoughts and hot takes that no one asked for but you're getting anyway.</p>
+
+                    <p>Welcome to the show. No refunds.</p>
+                </div>
+            </div>
+
+            <div class="about-details">
+                <h3>My Background</h3>
+                <p>I have a background in electrical engineering and CS/IT. Over the years, I've worked as a sysadmin and IT technician.</p>
+
+                <h3>Why This Blog?</h3>
+                <p>This blog is a space for me to share my thoughts, document my journey, and connect with like-minded individuals.</p>
+
+                <h3>Contact Me</h3>
+                <p>Feel free to reach out to me at: <a href="mailto:shoum.linuxtech@gmail.com">shoum.linuxtech@gmail.com</a></p>
+            </div>
+        </section>
+
+        <!-- My Thoughts Page -->
+        <section id="thoughts" class="page-content">
+            <h2>My Thoughts</h2>
+            <p>Welcome to my content section. Here, I share my thoughts, research, and videos on topics I'm passionate about.</p>
+
+            <div id="content-container">
+                <!-- Content entries will be dynamically loaded here -->
+                <div class="loading-message">Loading content...</div>
+            </div>
+        </section>
+
+        <!-- My Portfolio Page -->
+        <section id="portfolio" class="page-content">
+            <h2>My Portfolio</h2>
+            <p>Here are some of the projects I've worked on. Feel free to check them out and provide feedback!</p>
+
+            <div class="portfolio-item">
+                <h3 class="portfolio-title">Database of North American birds</h3>
+                <a href="http://18.117.172.11:9075/" class="portfolio-link">View Project</a>
+            </div>
+
+            <div class="portfolio-item">
+                <h3 class="portfolio-title">Scientific Calculator</h3>
+                <a href="http://18.117.172.11:9080/" class="portfolio-link">View Project</a>
+            </div>
+
+            <div class="portfolio-item">
+                <h3 class="portfolio-title">Mortgage Calculator</h3>
+                <a href="http://18.117.172.11:9099/" class="portfolio-link">View Project</a>
+            </div>
+
+            <div class="portfolio-item">
+                <h3 class="portfolio-title">Retirement Planner</h3>
+                <a href="http://18.117.172.11:9098/" class="portfolio-link">View Project</a>
+            </div>
+        </section>
+
+        <section id="links" class="page-content">
+            <h2>Useful Links</h2>
+            <p>Here are some resources I find helpful. Feel free to explore them!</p>
+
+            <div id="links-container">
+                <!-- Links will be dynamically loaded here -->
+                <div class="loading-message">Loading links...</div>
+            </div>
+    </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Retro Blog. All rights reserved.</p>
+        <p>Made with ❤️ and nostalgic CSS</p>
+
+        <div class="social-links">
+            <a href="https://www.instagram.com/space_monk33/">Instagram</a> |
+            <a href="https://github.com/shoumik-01">GitHub</a> |
+            <a href="https://www.linkedin.com/in/shoumik-hasan-8905a28b/">LinkedIn</a>
+        </div>
+
+        <div class="visitor-counter">
+            Visitors: <span class="hit-counter">00001337</span>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
